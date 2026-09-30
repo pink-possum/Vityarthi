@@ -145,3 +145,14 @@ Verify boundary handling and relational updates with the following test procedur
 ### 3. Integration Test (State Transition & Fines)
 * **Action:** Run Option 5 to return Transaction ID `4` (due on September 24, 2026).
 * **Expected Result:** System applies dynamic fine math based on the current date, registers the return timestamp, and immediately increments the corresponding book's `available_copies` by 1.
+
+## Visual Workflows & CLI Interface
+
+### 1. Main Navigation & Search
+Interactive CLI dashboard displaying keyword-filtered catalog results.
+
+### 2. Circulation Processing
+Loan validation checking real-time stock thresholds and writing the transaction.
+
+### 3. Return & Overdue Assessment
+Automated penalty calculation and stock replenishment upon book check-in.
