@@ -1,3 +1,4 @@
+"""Configuration settings the Library Management System."""
 BOOKS_FILE = 'books.csv'
 MEMBERS_FILE = 'members.csv'
 TRANSACTIONS_FILE = 'transactions.csv'
