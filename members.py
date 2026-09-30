@@ -8,14 +8,14 @@ def register_new_member():
     
     print("\n----- Register New Member -----")
     full_name = input('Enter Full Name: ').strip()
-    department_class = input('Enter Class/Department: ').strip()
-    phone_contact = input('Enter Contact Number: ').strip()
+    department = input('Enter Class/Department: ').strip()
+    phone = input('Enter Contact Number: ').strip()
     
     new_member = {
         'member_id': get_next_id(members, 'member_id'),
         'name': full_name,
-        'class': department_class,
-        'contact': phone_contact
+        'class': department,
+        'contact': phone
     }
     
     members.append(new_member)
