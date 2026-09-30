@@ -1,0 +1,7 @@
+book_id,isbn,title,author,publisher,year,total_copies,available_copies
+1,9781593278281,The Rust Programming Language,Steve Klabnik,No Starch Press,2018,5,5
+2,9781491939369,Fluent Python,Luciano Ramalho,O'Reilly Media,2015,3,3
+3,9780131103627,The C Programming Language,Brian W. Kernighan,Prentice Hall,1988,4,4
+4,9781646516694,"Smoking Behind the Supermarket with You, Vol. 1",Jinushi,Square Enix Manga,2024,2,2
+5,9780982522738,Starting Strength: Basic Barbell Training,Mark Rippetoe,The Aasgaard Company,2011,2,2
+6,9781119602447,Operating System Concepts,Abraham Silberschatz,Wiley,2018,4,4
